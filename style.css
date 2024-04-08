@@ -1,0 +1,291 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+
+.all{
+    /* border: 1px solid black; */
+    background-image: url(UAE-img1.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.top:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.top ul{
+    width: 40vw;
+    display: flex;
+    /* border: 1px solid gold; */
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3vh;
+    list-style-type: none;
+}
+
+
+.all-content{
+    /* border: 1px solid green; */
+    text-align: center;
+    flex-grow: 1;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.all-content .readmore{
+    /* border: 1px solid gold; */
+    background-color: black;
+    border-radius: 15vw;
+    padding: 5px;
+    margin: 3vh;
+    transition: 0.3s;
+}
+
+.readmore:hover{
+    color: blue;
+    background-color: whitesmoke;
+}
+
+.all-content h3{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 1vh;
+    border-radius: 1vw;
+    transition: 0.3s;
+}
+
+.all-content h1{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 1vw;
+    transition: 0.3s;
+}
+
+.all-content h3:hover{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.all-content h1:hover{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+.Dubai{
+    background-image: url(dubai.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dubai-content{
+    /* border: 1px solid black; */
+    text-align: center;
+    width: 70vw;
+}
+
+.dubai-content{
+    transition: 1s;
+}
+
+.dubai-content:hover{
+    transform: scale(1.2);
+}
+
+.dubai-content h1{
+    margin: 2vh 0;
+}
+
+
+
+.burj-khalifa{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 3vh 0;
+}
+
+.khalifa-img{
+    width: 40vw;
+}
+
+.khalifa-img img{
+    width: 100%;
+}
+
+.khalifa-content{
+    width: 40vw;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.khalifa-content h1,.khalifa-content p{
+    /* border: 1px solid blue; */
+    transition: 0.6s;
+    padding: 2vh 0vw;
+}
+
+.khalifa-content h1:hover{
+    transform: scale(1.2);
+}
+
+.khalifa-content p:hover{
+    transform: scale(1.1);
+}
+
+
+
+.hotel{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 3vh 0;
+}
+
+.hotel-content{
+    width: 40vw;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.hotel-img{
+    width: 40vw;
+}
+
+.hotel-img img{
+    width: 100%;
+}
+
+.hotel-content h3{
+    /* border: 1px solid whitesmoke; */
+    transition: 0.6s;
+    padding-bottom: 2vh;
+    font-size: 15px;
+}
+
+.hotel-content h1{
+    /* border: 1px solid whitesmoke; */
+    transition: 0.6s;
+    padding: 0 2vw 2vh;
+    font-size: 25px;
+}
+
+.hotel-content:hover h1{
+    transform: scale(1.2);
+}
+
+.hotel-content p{
+    /* border: 1px solid whitesmoke; */
+    transition: 0.6s;
+}
+
+.hotel-content p:hover {
+    transform: scale(1.1);
+}
+
+.wrapper{
+    /* border: 1px solid gold; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    margin: 5vh 0;
+    padding: 2vh 0;
+    background-color: black;
+}
+
+.cards{
+    height: 60vh;
+    width: 28%;
+    /* border: 1px solid white; */
+    border-radius: 25px;
+}
+
+.card1-img{
+    background-image: url(desert\ \(1\).jpg);
+    height: 60%;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.card1-text{
+    background-color: rgb(236, 172, 100);
+    height: 39%;
+    padding: 20px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.card2-img{
+    background-image: url(Palm-island.jpg);
+    height: 60%;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.card2-text{
+    background-color: rgb(236, 172, 100);
+    height: 39%;
+    padding: 20px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.card3-img{
+    background-image: url(Museum.jpg);
+    height: 60%;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.card3-text{
+    background-color: rgb(236, 172, 100);
+    height: 39%;
+    padding: 20px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.card-text{
+    /* border: 1px solid violet; */
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: 20px;
+}
